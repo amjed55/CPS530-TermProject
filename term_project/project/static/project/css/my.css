@@ -22,11 +22,26 @@
 
 
 /*-------------------- Main Styles -------------------*/
-.main{
-
+.content-wrap{
+	width: 90%;
+	margin:auto;
+	
 }
-
-
+.title{
+	width: 400px;
+	margin: auto;
+	font-size: 26px;
+	text-align: center;
+	font-weight: bold;
+}
+.sub-title{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.img-style{
+	margin:10px auto;
+}
 
 
 

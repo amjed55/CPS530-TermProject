@@ -1,0 +1,65 @@
+
+/*-------------------- General Styles -------------------*/
+.wrap{
+	width: 95%;
+	/*  max-width: 1100px; */
+	margin:0 auto;
+}
+
+
+/*-------------------- Header Styles -------------------*/
+.head{
+	font-family: 'Luckiest Guy', cursive;
+	font-size:46px;
+	border-width: 5px;"
+}
+
+
+
+/*-------------------- Nav Styles -------------------*/
+
+
+
+
+/*-------------------- Main Styles -------------------*/
+.content-wrap{
+	width: 90%;
+	margin:auto;
+	
+}
+.title{
+	width: 400px;
+	margin: auto;
+	font-size: 26px;
+	text-align: center;
+	font-weight: bold;
+}
+.sub-title{
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.img-style{
+	margin:10px auto;
+}
+
+/*       Page 6 Styles*/
+
+.page6-names{
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+
+}
+.credit{
+	margin-left: 30px;
+}
+
+.image6{
+	width: 300px;
+	height: 300px;
+	border-radius: 200px;
+
+}
+
+

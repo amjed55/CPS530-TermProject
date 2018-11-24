@@ -1,0 +1,66 @@
+{% extends "project/header.html" %}
+
+{% block content %}
+<ul class="menu vertical" data-accordion-menu data-multi-open="false" accordionmenu-arrow="true">
+	<li>
+		<a class="page6-names" href="#">Django Install instructions</a>
+		<ul class="vertical menu is-active">
+			<div>
+				<span>Local machine:</span>
+				<dl>
+					<dt>Check for pip installation</dt>
+						<dd>On your local machine make sure python + pip is installed.<br>
+							<code class="code">$ pip --version</code><br>If pip is not in follow these <a href="https://pip.pypa.io/en/stable/installing/" target="_blank">installation instructions</a> instructions.
+						</dd>
+					<dt>Install Django</dt>
+						<dd>Usind pip, install django.<br><code class="code">$ pip install django</code></dd>
+					<dt>Create project folder</dt>
+						<dd>Create a folder for your project : name it whatever you like.<code class="code">$ mkdir projectName</code></dd>
+					<dt>Start Django Project</dt>
+						<dd>Open a command prompt/terminal in the project folder and start the Django project.<br>
+							<code class="code">$ ctrl t<br>$ django-admin startproject [projectName]</code></dd>
+					<dt>Change directory </dt>
+						<dd>Change directory into the project directory that was created previously.<code class="code">$ cd projectName</code></dd>
+					<dt>Start development server</dt>
+						<dd> To start the development server enter.<code class="code">$ python manage.py runserver</code></dd>
+					<dt>Access the server</dt>
+						<dd>Open a browser and enter the address to which the development server is being run. You can find the address in the output of running the previous step.</dd>
+					<dt>Congratulations, you’ve successfully installed Django</dt>
+				</dl>
+			</div>
+		</ul>
+	</li>
+	<li>
+		<a class="page6-names" href="#">Foundation Install instructions</a>
+		<ul class="vertical menu">
+			<div>
+				<dl>
+					<dt>Install with package managers</dt>
+						<dd>You can install foundation using package managers it is available on. (npm, Bower, Meteor and Composer).<br> npm- <code class="code">$ npm install foundation-sites </code><br>
+						pnpm -<code class="code">$ pnpm install foundation-sites</code><br>
+						yarn -<code class="code">$ yarn add foundation-sites</code><br>
+						bower -<code class="code">$ bower install foundation-sites</code><br>
+						gem -<code class="code">$ gem install foundation-rails</code><br>
+						meteor -<code class="code">$ meteor add zurb:foundation-sites</code><br>
+						php -<code class="code">$ php composer.phar require zurb/foundation</code><br>
+						NuGet -<code class="code">$ Install-Package foundation-sites</code><br></dd>
+
+					<dt>This is what comes with in the package:</dt>
+						<div><pre>|─ scss       Source Sass files. Use this folder as a load path in Sass.<br>
+├─ js         Source JavaScript files. If you're using a build system, make sure `foundation.core.js` is loaded first.<br>
+└─ dist       Compiled files:<br>
+├─ css        * Compiled CSS files. Includes minified and unminified files.<br>
+├─ js         * Concatenated JavaScript files. Includes minified and unminified files.<br>
+└─ plugins    * Standalone JavaScript plugins.</pre></div>
+						 
+
+				</dl>
+			</div>
+		</ul>
+	</li>
+</ul>
+
+
+
+			
+{% endblock %}

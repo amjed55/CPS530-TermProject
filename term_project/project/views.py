@@ -4,7 +4,7 @@ def summary(request):
 	return render(request, 'project/summary.html')
 	
 def installations(request):
-	return render(request, 'project/installation.html')
+	return render(request, 'project/installations.html')
 
 def tutorial(request):
 	return render(request, 'project/tutorial.html')
